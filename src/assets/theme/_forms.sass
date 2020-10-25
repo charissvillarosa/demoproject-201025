@@ -1,0 +1,19 @@
+.form-control:hover,
+.form-control:focus,
+.form-control:active,
+.form-control:visited,
+.form-control:focus-visible,
+.form-group:hover,
+select:hover
+  border-color: #2C66D5
+  box-shadow: none
+
+.form-control.is-invalid,
+.was-validated .form-control:invalid
+  border-color: #dc3545
+
+.is-invalid~.invalid-feedback,
+.is-invalid~.invalid-tooltip,
+.was-validated :invalid~.invalid-feedback,
+.was-validated :invalid~.invalid-tooltip
+  text-align: right

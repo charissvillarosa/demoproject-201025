@@ -1,0 +1,51 @@
+<app-main-layout>
+  <h2 class="title">
+    Account Details
+  </h2>
+
+  <p class="desc">
+    But I must explain to you how all this mistaken idea of denouncing
+  </p>
+
+  <form class="frm-acct-details">
+    <div class="form-group">
+      <label for="inpFullname">Full Name</label>
+      <input aria-describedby="Full Name" autocomplete="off" class="form-control" id="inpFullname"
+             placeholder="Type in full name" type="text">
+    </div>
+
+    <div class="form-group">
+      <label for="datBirth">Date of Birth</label>
+      <input aria-describedby="Date of Birth" autocomplete="off" class="form-control" id="datBirth"
+             placeholder="Type date of birth" type="date">
+    </div>
+
+    <div class="form-group">
+      <label for="secGender">Gender (optional)</label>
+      <select class="form-control" id="secGender">
+        <option>Female</option>
+        <option>Male</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="inpMobile">Mobile</label>
+      <input aria-describedby="Mobile" autocomplete="off" class="form-control" id="inpMobile" placeholder="Type in mobile"
+             type="text">
+    </div>
+
+    <div class="form-group">
+      <label for="inpAddress">Address</label>
+      <input aria-describedby="Address" autocomplete="off" class="form-control" id="inpAddress" placeholder="Type in address"
+             type="text">
+    </div>
+
+    <div class="form-group">
+      <button class="btn btn-default btn-skip" type="button">Skip</button>
+      <button class="btn btn-primary btn-complete" type="button">
+        Complete
+        <img class="btn-icon" src="../../../assets/images/icons/icon-arrow-right.svg">
+      </button>
+    </div>
+  </form>
+</app-main-layout>
